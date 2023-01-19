@@ -1,0 +1,10 @@
+@import url(header.css);
+
+:root{
+    --main-primary-red-color: #B60C2D;
+    --main-secondary-red-color: #DE2340;
+}
+
+*{
+    box-sizing: border-box;
+}
