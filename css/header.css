@@ -2,3 +2,5 @@ header{
     background-color: black;
     color: white;
 }
+header a{ color: white; }
+header a:hover{ color: white;}
