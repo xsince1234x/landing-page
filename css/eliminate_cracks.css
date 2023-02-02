@@ -1,0 +1,47 @@
+#elcrack img{
+    position: relative;
+    top: 20px;
+    left: 50%;
+    z-index: -1;
+}
+
+#elcrack .container-fluid{position: relative;}
+.red-btn{
+    background-color: var(--main-primary-red-color);
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 25px;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+.e1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.e2{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+.e3{
+    position: absolute;
+    top: 35%;
+    left: 0;
+}
+
+.e4{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+#elcrack h2{
+    margin-top: 2em;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3em;
+}

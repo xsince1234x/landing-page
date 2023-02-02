@@ -2,10 +2,11 @@
     background-image: url(../images/Benefits-bg.webp);
     height: 700px;
     background-size: cover;
+    background-position: center;
 }
 .cont-cent{
     background-color: #f4f4f4;
-    height: 400px;
+    
     width: 65%;
     border-radius: 12px;
 }
@@ -15,4 +16,8 @@
 }
 .title{
     font-size: 3em;
+}
+.text{
+   
+    width: 75%;
 }
