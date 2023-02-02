@@ -1,0 +1,23 @@
+.container-list{
+    background-color: #000000;
+    color: white;
+    padding-top: 200px;
+}
+.container-list-title{
+    margin-bottom: 5%;
+}
+.word-red{
+    color: #B60C2D;
+}
+.block-list{
+    font-size: 21px;
+    border-left: 6px solid white;
+}
+.block-list>h2{
+    margin-left: 10%;
+    font-size: 23px; 
+    margin-bottom: 20px; 
+}
+.block-list>ul>li{
+    margin: 10px;
+}
