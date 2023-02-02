@@ -4,13 +4,74 @@
 @import url(list.css);
 @import url(add.css);
 
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-Medium.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-MediumItalic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-LightItalic.ttf);
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-ExtraBoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
 :root{
     --main-primary-red-color: #B60C2D;
     --main-secondary-red-color: #DE2340;
 }
+
 *{
-    margin: 0px;
-   padding: 0px;
     box-sizing: border-box;
+    font-family: saira;
+    padding: 0;
+    margin: 0;
 }
-a{ text-decoration: none; }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.text-rox{ color: #CB1430; }
