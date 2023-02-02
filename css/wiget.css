@@ -3,14 +3,13 @@
     top: 110px; 
 }
 .item-widget {
-    height: 100%;
     margin: 3%;
+    height: 100%;
     background-color: #54595F;
     border-radius: 10px;  
     font-size: 15px;
     color: white;
     padding: 5%;
-
 }
 .element_wiget>h2 {
     font-size: 20px;
