@@ -3,3 +3,16 @@
     height: 700px;
     background-size: cover;
 }
+.cont-cent{
+    background-color: #f4f4f4;
+    height: 400px;
+    width: 65%;
+    border-radius: 12px;
+}
+#buton-red{
+    background-color: #B60C2D;
+    font-size: 1.4em;
+}
+.title{
+    font-size: 3em;
+}
