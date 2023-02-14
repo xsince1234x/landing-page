@@ -11,9 +11,10 @@ border-radius: 15px;
     background-color: #000000;
     border: #000000;
     font-size: 1.3em;
-    padding: 0.7em;
+    padding: 0.5em 2em;
     border-radius: 20px;
 }
+#buton-black:hover{ animation: zoom 1s infinite; }
 .tittle-the-floor{
 color: white;
 width:60% ;
