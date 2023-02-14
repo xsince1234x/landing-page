@@ -4,7 +4,9 @@
 @import url(list.css);
 @import url(add.css);
 @import url(eliminate_cracks.css);
-
+@import url(galleri.css);
+@import url(the-floor.css);
+@import url(commints.css);
 
 @font-face {
     font-family: saira;
