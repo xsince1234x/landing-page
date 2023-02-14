@@ -1,12 +1,11 @@
 @import url(header.css);
 @import url(banner.css);
-@import url(wiget.css);
+@import url(icons-sect.css);
 @import url(list.css);
-@import url(add.css);
+@import url(know-benefits.css);
 @import url(eliminate_cracks.css);
 @import url(gallery.css);
 @import url(the-floor.css);
-@import url(commints.css);
 @import url(footer.css);
 @import url(accordion.css);
 
@@ -14,6 +13,19 @@
     font-family: saira;
     src: url(../fonts/Saira/Saira-Medium.ttf);
     font-weight: normal;
+}
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-SemiBold.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira/Saira-SemiBoldItalic.ttf);
+    font-weight: 400;
+    font-style: italic;
 }
 
 @font-face {

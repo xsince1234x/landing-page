@@ -1,0 +1,30 @@
+.add{
+    background-image: url(../images/Benefits-bg.webp);
+    background-size: cover;
+    background-position-y: 25%;
+    padding: 0;
+    padding-bottom: 150px;
+}
+.cont-cent{
+    margin-top: 50px;
+    padding-bottom: 10em;
+    max-width: 860px;
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 86%);
+}
+#buton-red{
+    background-color: #B60C2D;
+    font-size: 1.4em;
+    padding: 0.3em 1.5em;
+}
+#buton-red:hover{ animation: zoom 1s infinite; }
+.title{
+    font-size: 3em;
+    font-weight: 400;
+}
+.cont-cent h2:first-child{
+    font-weight: 400;
+    font-size: 3em;
+    font-style: italic;
+}
