@@ -1,0 +1,15 @@
+footer{
+    background-color: #CB1430;
+    color: white;
+    font-weight: 300;
+    padding: 6em 0 3em 0;
+}
+
+footer > .row > div:first-child{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3em;
+}
+footer p{ margin-left: 1em; }
+footer a:hover{ color: #aeaeae; }
+footer > .row > div:last-child{ padding-right: 3em;}
