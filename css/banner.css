@@ -16,6 +16,14 @@
     padding-left: 2em;
     padding-right: 2em;
 }
+.red-advice{
+    text-align: center;
+    background-color: #B5092B;
+    position: absolute;
+    top: 90px;
+    padding: 0.5em 1em;
+    color: white;
+}
 #banner form > button:hover{ animation: zoom 1s infinite; }
 
 @keyframes zoom{
