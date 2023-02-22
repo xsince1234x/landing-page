@@ -1,8 +1,3 @@
-// inicializador de las animaciones
-AOS.init({
-      duration: 1200
-});
-// configuracion del slider
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -36,4 +31,3 @@ var swiper = new Swiper(".slide-content", {
         delay: 2000,
     },
 });
-  
