@@ -4,7 +4,6 @@
     left: 50%;
     z-index: -1;
 }
-
 #elcrack .container-fluid{position: relative;}
 .red-btn{
     background-color: var(--main-primary-red-color);
@@ -14,34 +13,39 @@
     font-size: 1.5em;
     z-index: 1;
 }
-
 .e1{
     position: absolute;
     top: 10%;
     left: 30%;
 }
-
 .e2{
     position: absolute;
     top: 10%;
     left: 60%;
 }
-
 .e3{
     position: absolute;
     top: 35%;
     left: 0;
 }
-
 .e4{
     position: absolute;
     top: 80%;
     left: 40%;
 }
-
 #elcrack h2{
     margin-top: 2em;
     font-weight: 700;
     font-style: italic;
     font-size: 3em;
+}
+
+@media screen and (max-width: 768px){
+    #elcrack h2{font-size: 1.8em;}
+    #elcrack img{left: 25%;}
+    .red-btn{ font-size: 1.2em;}
+    .e1{ left: 10%;}
+    .e2{top: 30%; left: 35%;}
+    .e3{top: 55%;}
+    .e4{top:80%;}
 }

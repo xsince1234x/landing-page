@@ -28,3 +28,8 @@
     font-size: 3em;
     font-style: italic;
 }
+
+@media screen and (max-width: 768px){
+    .title{ font-size: 1.8em; }
+    .cont-cent h2:first-child{ font-size: 1.7em;}
+}
