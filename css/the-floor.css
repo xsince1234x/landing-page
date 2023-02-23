@@ -3,9 +3,7 @@
 }
 .cont-red{
 background-color: #DE2340;
-padding: 82px 0px 0px 82px;
 border-radius: 15px;
-
 }
 #buton-black{
     background-color: #000000;
@@ -17,8 +15,7 @@ border-radius: 15px;
 #buton-black:hover{ animation: zoom 1s infinite; }
 .tittle-the-floor{
 color: white;
-width:60% ;
-font-size: 2.6em;
+width:80% ;
 }
 .img-the-floor{
     max-width: 100%;
@@ -26,5 +23,8 @@ font-size: 2.6em;
 }
 .the-floor-text{
     color: white;
+}
+.maxw{
+    max-width: 170px;
 }
 
