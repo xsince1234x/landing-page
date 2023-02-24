@@ -34,7 +34,17 @@
         let email = document.getElementById("email").value;
         let comentario = document.getElementById("comentario").value;
 
-        
+        let xhttp = new XMLHttpRequest();
+
+        xhttp.onload = function(){
+            alert("El comentario fue registrado");
+        }
+
+        let jsonOjb = {email: email, comentario: comentario};
+
+        xhttp.open("POST", "http://localhost/landing-page/practica/registrar_comentario.php");
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhttp.send("json=" + JSON.stringify(jsonOjb));
     }
 </script>
 <script src="bootstrap.bundle.min.js"></script>
