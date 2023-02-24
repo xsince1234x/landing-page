@@ -55,3 +55,25 @@
     height: auto;
     padding: 10px;
 }
+@media screen and (max-width: 768px) { 
+    .circle-plus{
+        width: 1em;
+        height: 1em;
+        top: 55%;
+    }
+    .accordion-cont .contentbx .circle-plus::before {
+        content: '+';
+        position: absolute;
+        top: 50%;
+        left: 4px;
+        transform: translateY(-55%);
+        font-size: 1.2em;
+    }
+    .accordion{
+        width: 95%;
+    }
+    .accordion-cont .contentbx .label{
+        font-size: 1.3em;
+    }
+
+}
