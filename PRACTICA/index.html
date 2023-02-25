@@ -28,21 +28,89 @@
             </div>
         </div>
     </div>
+    <section class="container">
+        
+    </section>
 </body>
 <script>
+    carga_comentarios();
+    function carga_comentarios() {
+        
+        let xhttp = new XMLHttpRequest();
+        let metodo = "GET";
+        let url = "http://localhost/main-page/practica/cargar_comentarios.php";
+        xhttp.open(metodo,url);
+        xhttp.send();
+        
+        xhttp.onload=function(){
+            let comentarios = JSON.parse(xhttp.responseText);
+            alert(comentarios[0]);
+         };
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     function formSubmit(){
+        
         let email = document.getElementById("email").value;
         let comentario = document.getElementById("comentario").value;
 
         let xhttp = new XMLHttpRequest();
 
         xhttp.onload = function(){
-            alert("El comentario fue registrado");
+            
+            const sect = document.querySelector("section");
+            let div = document.createElement("div");
+            div.classList.add('user','bg-secondary');
+            div.textContent = email;
+            sect.appendChild(div);
+            div = document.createElement("div");
+            div.classList.add('comment','border', 'border-success');
+            div.textContent = comentario;
+            sect.appendChild(div);
+             
         }
 
         let jsonOjb = {email: email, comentario: comentario};
 
-        xhttp.open("POST", "http://localhost/landing-page/practica/registrar_comentario.php");
+        xhttp.open("POST", "http://localhost/main-page/practica/registrar_comentario.php");
         xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xhttp.send("json=" + JSON.stringify(jsonOjb));
     }
