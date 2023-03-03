@@ -40,24 +40,27 @@
         </div>
         <div class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center text-center p-md-0 p-4"><!-- Formulary -->
           <h3>JANUARY ONLY!<br><span class="fw-bold text-decoration-underline">SAVE 30%</span></h3>
-          <form action="#" id="main-form" class="w-75">
+          <form action="#" id="main-form" class="w-75" >
             <div class="mb-1">
               <label for="name" class="form-label"></label>
-              <input type="text" class="form-control" id="name" placeholder="Full Name">
+              <input type="text" class="form-control" id="name" placeholder="Full Name" onkeypress="return name_verifi(event)">
             </div>
             <div class="mb-1">
               <label for="email" class="form-label"></label>
-              <input type="email" class="form-control" id="email" placeholder="Email Address">
+              <input type="email" class="form-control" id="email" placeholder="Email Address" onkeypress="return email_verifi(event)">
             </div>
             <div class="mb-1">
               <label for="phone" class="form-label"></label>
-              <input type="text" class="form-control" id="Phone" placeholder="Phone Number">
+              <input type="text" class="form-control" id="phone" placeholder="Phone Number" onkeypress="return number_verifi(event)">
             </div>
             <div class="mb-1">
               <label for="zip-code" class="form-label"></label>
-              <input type="text" class="form-control" id="zip-code" placeholder="ZIP Code">
+              <input type="text" class="form-control" id="zip-code" placeholder="ZIP Code" onkeypress="return number_verifi(event)">
             </div>
-            <button type="button" class="btn btn-danger mt-3" onclick="regist_user()">GET FREE ESTIMATE NOW</button>
+            <button type="button" class="btn btn-danger mt-3" onclick="validar()">GET FREE ESTIMATE NOW</button>
+            <div>
+              <p id="message_form"></p>
+            </div>
           </form>
         </div>
       </div>
@@ -438,6 +441,7 @@
         </div>
     </div>
   </footer>
+    <script src="js/inputs_verifi.js"></script>
     <script src="js/connect_ajax.js"></script>
     <script src="js/accordion.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
